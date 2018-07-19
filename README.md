@@ -6,5 +6,5 @@ int iSides = pExplosionEntityData->m_BlastRadius * 8;
 if ( getSettings->m_bGrenadeSphere )
     DrawSphere( position, transform, pExplosionEntityData->m_BlastRadius, iSides, dwColor );
 ```
-<br>
+
 [![Demo video](https://giant.gfycat.com/QuickIdolizedAdder.gif)](https://youtu.be/tOeF1u-Y2jk)
