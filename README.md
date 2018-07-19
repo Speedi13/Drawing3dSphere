@@ -1,10 +1,16 @@
 # Drawing3dSphere
 Drawing a 3D Sphere in C++
-<br>
+
 ```cpp
 int iSides = pExplosionEntityData->m_BlastRadius * 8;
-if ( getSettings->m_bGrenadeSphere )
+if ( Settings->m_bGrenadeSphere )
     DrawSphere( position, transform, pExplosionEntityData->m_BlastRadius, iSides, dwColor );
 ```
 
-[![Demo video](https://giant.gfycat.com/QuickIdolizedAdder.gif)](https://youtu.be/tOeF1u-Y2jk)
+
+## Demo Video
+Watch on Youtube:<br>
+https://www.youtube.com/watch?v=tOeF1u-Y2jk
+
+Or as direct video in a bit better quality:<br>
+https://giant.gfycat.com/SlimForcefulBrontosaurus.webm
