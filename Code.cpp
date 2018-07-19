@@ -25,10 +25,10 @@ void Draw3DCircleForSphere(  float X, float Y, float Z, float flRadius, int numS
 			if ( bOnScreenVisible )
 			{
 				OutCirclePositions[i] = ScreenPos;
-				OutCirclePositions[i].z = 1;
+				*(BYTE*)&OutCirclePositions[i].z = 1; //for optimisation, I don't want to use float comparison
 			}
 			else
-				OutCirclePositions[i].z = 0;
+				*(BYTE*)&OutCirclePositions[i].z = 0;
 		}
 		return;
 	}
