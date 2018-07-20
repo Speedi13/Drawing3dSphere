@@ -1,6 +1,8 @@
-# Drawing3dSphere
+# Drawing 3D Sphere
 Drawing a 3D Sphere in C++
-
+<br><br>
+![Demo pic](https://i.imgur.com/pE5FU9b.jpg)
+<br>
 ## How it works
 First I draw horizontal circles, then I connect them with lines.<br>
 Red are the circles, blue are the connection lines:<br>
