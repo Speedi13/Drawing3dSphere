@@ -1,6 +1,13 @@
 # Drawing3dSphere
 Drawing a 3D Sphere in C++
 
+## How it works
+First I draw horizontal circles, then I connect them with lines.<br>
+Red are the circles, blue are the connection lines:<br>
+![picture](https://i.imgur.com/zRo8gfa.png)
+
+
+## Function usage
 ```cpp
 int iSides = pExplosionEntityData->m_BlastRadius * 8;
 if ( Settings->m_bGrenadeSphere )
